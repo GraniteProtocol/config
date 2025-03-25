@@ -1,0 +1,25 @@
+{
+  "name": "granite-config",
+  "version": "1.'.0",
+  "description": "Granite configuration package",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "",
+  "scripts": {
+    "build": "tsup",
+    "format": "prettier -w ."
+  },
+  "author": "",
+  "keywords": [
+    "granite",
+    "config",
+    "smart contracts"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
