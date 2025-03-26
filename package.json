@@ -1,14 +1,23 @@
 {
-  "name": "granite-config",
-  "version": "1.'.0",
+  "name": "@graniteprotocol/config",
+  "version": "1.0.0",
   "description": "Granite configuration package",
+  "private": true,
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GraniteProtocol/config.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "build": "tsup",
-    "format": "prettier -w ."
+    "format": "prettier -w .",
+    "prepublishOnly": "npm run build"
   },
   "author": "",
   "keywords": [
