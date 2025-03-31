@@ -329,7 +329,7 @@ export const config: Config = {
         LIQUIDATOR: {
           id: "liquidator-v1",
           name: "liquidator-v1",
-          principal: "SP1M6MHD4EJ70MPJSH1C0PXSHCQ3D9C881AB7CVAZ",
+          principal: "SP1XN57PMR6X7JZ8JXMNRAE065YBA3NKRCZF5N46B",
         },
         INTEREST_RATE: {
           id: "linear-kinked-ir-v1",
