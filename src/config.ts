@@ -343,7 +343,7 @@ export const config: Config = {
         },
       },
       ir_params: {
-        baseIR: 0.04,
+        baseIR: 3,
         slope1: 0.05,
         slope2: 0.75,
         urKink: 0.8,
