@@ -289,8 +289,8 @@ export const config: Config = {
       collaterals: [
         {
           display_name: "sBTC",
-          maxLTV: 0.5,
-          liquidationLTV: 0.65,
+          maxLTV: 0.45,
+          liquidationLTV: 0.45000001,
           liquidationPremium: 0.1,
           contract: {
             id: "sbtc-token",
