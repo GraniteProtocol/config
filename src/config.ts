@@ -240,7 +240,7 @@ export const config: Config = {
       },
       lp_incentives: [
         {
-          startDate: 1744111980,
+          startDate: 1744221780,
           endDate: 1744122780,
           rewards: 10000000,
           initiated: true,
@@ -248,7 +248,7 @@ export const config: Config = {
           contract: {
             id: "lp-incentives-v1",
             name: "lp-incentives-v1",
-            principal: "SP1XD24B2NZJ6E9010SERZ306Z50J3T6A88J8VBNV",
+            principal: "SP37SS3Z22V937APV1V7F5VYDKWWX4925K2B2ZMHC",
           },
         },
       ],
