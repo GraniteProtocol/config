@@ -27,7 +27,7 @@ export const config: Config = {
       name: "Mainnet staging",
       rpc: "https://leather.granite.world",
       indexer: "https://indexer.granite.world",
-      notificationBot: "",
+      notificationBot: "https://notification-bot-staging-mainnet.granite.world",
       tgBot: "",
       network: "mainnet",
     },
