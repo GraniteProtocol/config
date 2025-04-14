@@ -161,7 +161,7 @@ export const config: Config = {
           "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
         price_feed:
           "eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
-        asset_cap: 250000,
+        asset_cap: 500000,
         dust_threshold: 0.01,
       },
       share_token: {
