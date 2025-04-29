@@ -302,7 +302,7 @@ export const config: Config = {
           principal: "SP3Y2ZSH8P7D50B0VBTSX11S7XSG24M1VB9YFQA4K",
         },
         decimals: 6,
-        display_decimals: 4,
+        display_decimals: 3,
         image:
           "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
         price_feed:
