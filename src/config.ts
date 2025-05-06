@@ -299,6 +299,18 @@ export const config: Config = {
             principal: "SP37JC08D5EM2T53JF09Y0ZEQKYTVW1Y8K7VDDGAC",
           },
         },
+        {
+          startDate: 1746636900,
+          endDate: 1747240500,
+          rewards: 4802000000,
+          initiated: false,
+          completed: false,
+          contract: {
+            id: "lp-incentives-v1",
+            name: "lp-incentives-v1",
+            principal: "SPQMP7TPG5C1P2FJMBJPVM1E0F751CFQWJJQ93F8",
+          },
+        },
       ],
       protocol_reserve_percentage: 0.25,
       scaling_factor: 1000000000000,
