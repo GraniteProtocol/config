@@ -292,7 +292,7 @@ export const config: Config = {
           endDate: 1746635700,
           rewards: 2685000000,
           initiated: true,
-          completed: false,
+          completed: true,
           contract: {
             id: "lp-incentives-v1",
             name: "lp-incentives-v1",
@@ -303,7 +303,7 @@ export const config: Config = {
           startDate: 1746636900,
           endDate: 1747240500,
           rewards: 4802000000,
-          initiated: false,
+          initiated: true,
           completed: false,
           contract: {
             id: "lp-incentives-v1",
