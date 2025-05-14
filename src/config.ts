@@ -312,8 +312,8 @@ export const config: Config = {
           },
         },
         {
-          startDate: 1746636900,
-          endDate: 1747240500,
+          startDate: 1747241100,
+          endDate: 1747841700,
           rewards: 9890000000,
           initiated: true,
           completed: false,
