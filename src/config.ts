@@ -336,9 +336,9 @@ export const config: Config = {
           },
         },
         {
-          startDate: 1748447700,
+          startDate: 1748453100,
           endDate: 1749050700,
-          rewards: 13187000000,
+          rewards: 15185000000,
           initiated: true,
           completed: false,
           contract: {
