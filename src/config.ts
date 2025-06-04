@@ -161,7 +161,7 @@ export const config: Config = {
           "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
         price_feed:
           "eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
-        asset_cap: 5000000,
+        asset_cap: 7500000,
         dust_threshold: 0.01,
       },
       share_token: {
@@ -233,10 +233,10 @@ export const config: Config = {
         },
       },
       ir_params: {
-        baseIR: 0.04,
-        slope1: 0.05,
-        slope2: 0.75,
-        urKink: 0.8,
+        baseIR: 0.05,
+        slope1: 0.04,
+        slope2: 3.1,
+        urKink: 0.85,
       },
       lp_incentives: [
         {
