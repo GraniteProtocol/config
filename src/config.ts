@@ -486,8 +486,8 @@ export const config: Config = {
       lp_incentives: [],
       protocol_reserve_percentage: 0,
       adaptive_caps: {
-        lp: 0.05,
-        debt: 0.05,
+        lp: 0.1,
+        debt: 0.1,
         collaterals: [0],
         timeWindow: 86400,
       },
