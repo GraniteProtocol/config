@@ -61,6 +61,7 @@ export enum GraniteContracts {
   LIQUIDATOR = "LIQUIDATOR",
   INTEREST_RATE = "INTEREST_RATE",
   GOVERNANCE = "GOVERNANCE",
+  ADAPTIVE_CAPS = "ADAPTIVE_CAPS"
 }
 
 export interface LpIncentivesEpoch {
