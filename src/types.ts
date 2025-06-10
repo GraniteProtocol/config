@@ -50,7 +50,6 @@ export interface CollateralToken extends Token {
   liquidationLTV: number;
   liquidationPremium: number;
   maxLTV: number;
-  cap?: number;
 }
 
 export enum GraniteContracts {
@@ -61,6 +60,7 @@ export enum GraniteContracts {
   LIQUIDATOR = "LIQUIDATOR",
   INTEREST_RATE = "INTEREST_RATE",
   GOVERNANCE = "GOVERNANCE",
+  ADAPTIVE_CAPS = "ADAPTIVE_CAPS",
 }
 
 export interface LpIncentivesEpoch {
@@ -70,6 +70,13 @@ export interface LpIncentivesEpoch {
   initiated: boolean;
   completed: boolean;
   contract: Contract;
+}
+
+export interface AdaptiveCaps {
+  lp: number;
+  debt: number;
+  collaterals: number[];
+  timeWindow: number;
 }
 
 export interface Market {
@@ -82,6 +89,7 @@ export interface Market {
   protocol_reserve_percentage: number;
   scaling_factor: number;
   lp_incentives: LpIncentivesEpoch[];
+  adaptive_caps: AdaptiveCaps;
 }
 
 export interface Config {

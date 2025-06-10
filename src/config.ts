@@ -135,6 +135,11 @@ export const config: Config = {
           name: "governance-v1",
           principal: "ST20M5GABDT6WYJHXBT5CDH4501V1Q65242SPRMXH",
         },
+        ADAPTIVE_CAPS: {
+          id: "adaptive-caps-v1",
+          name: "adaptive-caps-v1",
+          principal: "ST20M5GABDT6WYJHXBT5CDH4501V1Q65242SPRMXH",
+        },
       },
       ir_params: {
         baseIR: 3,
@@ -144,6 +149,12 @@ export const config: Config = {
       },
       lp_incentives: [],
       protocol_reserve_percentage: 0.2,
+      adaptive_caps: {
+        lp: 0,
+        debt: 0,
+        collaterals: [0, 0],
+        timeWindow: 86400,
+      },
       scaling_factor: 1000000000000,
     },
     MAINNET: {
@@ -229,6 +240,11 @@ export const config: Config = {
         GOVERNANCE: {
           id: "governance-v1",
           name: "governance-v1",
+          principal: "SP35E2BBMDT2Y1HB0NTK139YBGYV3PAPK3WA8BRNA",
+        },
+        ADAPTIVE_CAPS: {
+          id: "adaptive-caps-v1",
+          name: "adaptive-caps-v1",
           principal: "SP35E2BBMDT2Y1HB0NTK139YBGYV3PAPK3WA8BRNA",
         },
       },
@@ -361,6 +377,12 @@ export const config: Config = {
         },
       ],
       protocol_reserve_percentage: 0.25,
+      adaptive_caps: {
+        lp: 0,
+        debt: 0,
+        collaterals: [0],
+        timeWindow: 86400,
+      },
       scaling_factor: 1000000000000,
     },
 
@@ -449,6 +471,11 @@ export const config: Config = {
           name: "governance-v1",
           principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
         },
+        ADAPTIVE_CAPS: {
+          id: "daily-caps-v1",
+          name: "daily-caps-v1",
+          principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
+        }
       },
       ir_params: {
         baseIR: 3,
@@ -458,6 +485,12 @@ export const config: Config = {
       },
       lp_incentives: [],
       protocol_reserve_percentage: 0,
+      adaptive_caps: {
+        lp: 0.05,
+        debt: 0.05,
+        collaterals: [0],
+        timeWindow: 86400,
+      },
       scaling_factor: 1000000000000,
     },
   },
