@@ -172,7 +172,7 @@ export const config: Config = {
           "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48/logo.png",
         price_feed:
           "eaa020c61cc479712813461ce153894a96a6c00b21ed0cfc2798d1f9a9e9c94a",
-        asset_cap: 7500000,
+        asset_cap: 10000000,
         dust_threshold: 0.01,
       },
       share_token: {
@@ -368,11 +368,23 @@ export const config: Config = {
           endDate: 1749654000,
           rewards: 22260000000,
           initiated: true,
-          completed: false,
+          completed: true,
           contract: {
             id: "lp-incentives-v2",
             name: "lp-incentives-v2",
             principal: "SP6XCN5EE7KHWP4V7JP9K9RZYHK1J7S8M7NXWB5K",
+          },
+        },
+        {
+          startDate: 1749655500,
+          endDate: 1750260900,
+          rewards: 28393000000,
+          initiated: true,
+          completed: false,
+          contract: {
+            id: "lp-incentives-v2",
+            name: "lp-incentives-v2",
+            principal: "SP2JZQ7BXSEV4H8KXD6ZT0NW293V5ENJR7Y12RPJ3",
           },
         },
       ],
