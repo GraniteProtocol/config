@@ -136,8 +136,8 @@ export const config: Config = {
           principal: "ST20M5GABDT6WYJHXBT5CDH4501V1Q65242SPRMXH",
         },
         ADAPTIVE_CAPS: {
-          id: "adaptive-caps-v1",
-          name: "adaptive-caps-v1",
+          id: "daily-caps-v1",
+          name: "daily-caps-v1",
           principal: "ST20M5GABDT6WYJHXBT5CDH4501V1Q65242SPRMXH",
         },
       },
@@ -243,8 +243,8 @@ export const config: Config = {
           principal: "SP35E2BBMDT2Y1HB0NTK139YBGYV3PAPK3WA8BRNA",
         },
         ADAPTIVE_CAPS: {
-          id: "adaptive-caps-v1",
-          name: "adaptive-caps-v1",
+          id: "daily-caps-v1",
+          name: "daily-caps-v1",
           principal: "SP35E2BBMDT2Y1HB0NTK139YBGYV3PAPK3WA8BRNA",
         },
       },
