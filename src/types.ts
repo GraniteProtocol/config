@@ -15,8 +15,6 @@ export enum GRANITE_MARKETS {
 export interface Chain {
   id: GRANITE_MARKETS;
   name: string;
-  rpc: string;
-  indexer: string;
   notificationBot: string;
   tgBot: string;
   network: StacksNetworkName;

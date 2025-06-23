@@ -7,8 +7,6 @@ export const config: Config = {
     TESTNET: {
       id: GRANITE_MARKETS.TESTNET,
       name: "Testnet",
-      rpc: "https://rpc-public-testnet.granite.world",
-      indexer: "https://indexer-staging.granite.world",
       notificationBot: "https://notification-bot-staging.granite.world",
       tgBot: "https://t.me/TestGraniteBot",
       network: "testnet",
@@ -16,8 +14,6 @@ export const config: Config = {
     MAINNET: {
       id: GRANITE_MARKETS.MAINNET,
       name: "Mainnet",
-      rpc: "https://leather.granite.world",
-      indexer: "https://indexer.granite.world",
       notificationBot: "https://notification-bot.granite.world",
       tgBot: "https://t.me/GraniteFinanceBot",
       network: "mainnet",
@@ -25,8 +21,6 @@ export const config: Config = {
     MAINNET_STAGING: {
       id: GRANITE_MARKETS.MAINNET_STAGING,
       name: "Mainnet staging",
-      rpc: "https://leather.granite.world",
-      indexer: "https://indexer.granite.world",
       notificationBot: "https://notification-bot-staging-mainnet.granite.world",
       tgBot: "",
       network: "mainnet",
