@@ -7,21 +7,18 @@ export const config: Config = {
     TESTNET: {
       id: GRANITE_MARKETS.TESTNET,
       name: "Testnet",
-      notificationBot: "https://notification-bot-staging.granite.world",
       tgBot: "https://t.me/TestGraniteBot",
       network: "testnet",
     },
     MAINNET: {
       id: GRANITE_MARKETS.MAINNET,
       name: "Mainnet",
-      notificationBot: "https://notification-bot.granite.world",
       tgBot: "https://t.me/GraniteFinanceBot",
       network: "mainnet",
     },
     MAINNET_STAGING: {
       id: GRANITE_MARKETS.MAINNET_STAGING,
       name: "Mainnet staging",
-      notificationBot: "https://notification-bot-staging-mainnet.granite.world",
       tgBot: "",
       network: "mainnet",
     },
