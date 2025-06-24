@@ -56,7 +56,7 @@ export enum GraniteContracts {
   LIQUIDATOR = "LIQUIDATOR",
   INTEREST_RATE = "INTEREST_RATE",
   GOVERNANCE = "GOVERNANCE",
-  ADAPTIVE_CAPS = "ADAPTIVE_CAPS",
+  WITHDRAWAL_CAPS = "WITHDRAWAL_CAPS",
 }
 
 export interface LpIncentivesEpoch {
@@ -68,7 +68,7 @@ export interface LpIncentivesEpoch {
   contract: Contract;
 }
 
-export interface AdaptiveCaps {
+export interface WithdrawalCaps {
   lp: number;
   debt: number;
   collaterals: number[];
@@ -85,7 +85,7 @@ export interface Market {
   protocol_reserve_percentage: number;
   scaling_factor: number;
   lp_incentives: LpIncentivesEpoch[];
-  adaptive_caps: AdaptiveCaps;
+  withdrawal_caps: WithdrawalCaps;
 }
 
 export interface Config {

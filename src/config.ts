@@ -103,10 +103,10 @@ export const config: Config = {
           name: "governance-v1",
           principal: "SP35E2BBMDT2Y1HB0NTK139YBGYV3PAPK3WA8BRNA",
         },
-        ADAPTIVE_CAPS: {
-          id: "daily-caps-v1",
-          name: "daily-caps-v1",
-          principal: "SP35E2BBMDT2Y1HB0NTK139YBGYV3PAPK3WA8BRNA",
+        WITHDRAWAL_CAPS: {
+          id: "",
+          name: "",
+          principal: "",
         },
       },
       ir_params: {
@@ -262,7 +262,7 @@ export const config: Config = {
         },
       ],
       protocol_reserve_percentage: 0.25,
-      adaptive_caps: {
+      withdrawal_caps: {
         lp: 0,
         debt: 0,
         collaterals: [0],
@@ -356,7 +356,7 @@ export const config: Config = {
           name: "governance-v1",
           principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
         },
-        ADAPTIVE_CAPS: {
+        WITHDRAWAL_CAPS: {
           id: "daily-caps-v1",
           name: "daily-caps-v1",
           principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
@@ -370,7 +370,7 @@ export const config: Config = {
       },
       lp_incentives: [],
       protocol_reserve_percentage: 0,
-      adaptive_caps: {
+      withdrawal_caps: {
         lp: 0.1,
         debt: 0.1,
         collaterals: [0],
