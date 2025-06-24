@@ -104,9 +104,9 @@ export const config: Config = {
           principal: "SP35E2BBMDT2Y1HB0NTK139YBGYV3PAPK3WA8BRNA",
         },
         WITHDRAWAL_CAPS: {
-          id: "daily-caps-v1",
-          name: "daily-caps-v1",
-          principal: "SP35E2BBMDT2Y1HB0NTK139YBGYV3PAPK3WA8BRNA",
+          id: "",
+          name: "",
+          principal: "",
         },
       },
       ir_params: {
