@@ -7,7 +7,6 @@ declare const StacksNetworks: readonly [
 type StacksNetworkName = (typeof StacksNetworks)[number];
 
 export enum GRANITE_MARKETS {
-  TESTNET = "TESTNET",
   MAINNET = "MAINNET",
   MAINNET_STAGING = "MAINNET_STAGING",
 }
