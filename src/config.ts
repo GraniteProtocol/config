@@ -108,12 +108,23 @@ export const config: Config = {
           name: "",
           principal: "",
         },
+        SAFETY_MODULE: {
+          id: "",
+          name: "",
+          principal: "",
+        },
       },
       ir_params: {
         baseIR: 0.005,
         slope1: 0.04,
         slope2: 3.1,
         urKink: 0.85,
+      },
+      safety_module_params: {
+        stakedPercentageKink: 0,
+        slope1: 0,
+        slope2: 0,
+        baseRewardRate: 0,
       },
       lp_incentives: [
         {
@@ -306,7 +317,7 @@ export const config: Config = {
         contract: {
           id: "state-v1",
           name: "state-v1",
-          principal: "SP1M6MHD4EJ70MPJSH1C0PXSHCQ3D9C881AB7CVAZ",
+          principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
         },
         decimals: 6,
         display_decimals: 4,
@@ -372,13 +383,24 @@ export const config: Config = {
           id: "daily-caps-v1",
           name: "daily-caps-v1",
           principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
-        }
+        },
+        SAFETY_MODULE: {
+          id: "staking-v1",
+          name: "staking-v1",
+          principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
+        },
       },
       ir_params: {
         baseIR: 3,
         slope1: 0.13,
         slope2: 2.0,
         urKink: 0.7,
+      },
+      safety_module_params: {
+        stakedPercentageKink: 0.7,
+        slope1: -0.5,
+        slope2: -0.7,
+        baseRewardRate: 0.3,
       },
       lp_incentives: [],
       protocol_reserve_percentage: 0,

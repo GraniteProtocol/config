@@ -25,6 +25,13 @@ export interface ScaledIRParams {
   baseIR: number;
 }
 
+export type SafetyModuleParams = {
+  stakedPercentageKink: number;
+  slope1: number;
+  slope2: number;
+  baseRewardRate: number;
+};
+
 export interface Contract {
   id: string;
   name: string;
@@ -57,6 +64,7 @@ export enum GraniteContracts {
   INTEREST_RATE = "INTEREST_RATE",
   GOVERNANCE = "GOVERNANCE",
   WITHDRAWAL_CAPS = "WITHDRAWAL_CAPS",
+  SAFETY_MODULE = "SAFETY_MODULE",
 }
 
 export interface LpIncentivesEpoch {
@@ -82,6 +90,7 @@ export interface Market {
   collaterals: CollateralToken[];
   contracts: Record<GraniteContracts, Contract>;
   ir_params: ScaledIRParams;
+  safety_module_params: SafetyModuleParams;
   protocol_reserve_percentage: number;
   scaling_factor: number;
   lp_incentives: LpIncentivesEpoch[];
