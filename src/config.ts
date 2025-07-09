@@ -81,17 +81,17 @@ export const config: Config = {
         LP: {
           id: "liquidity-provider-v1",
           name: "liquidity-provider-v1",
-          principal: "SP35E2BBMDT2Y1HB0NTK139YBGYV3PAPK3WA8BRNA",
+          principal: "SP3BJR4P3W2Y9G22HA595Z59VHBC9EQYRFWSKG743",
         },
         BORROWER: {
           id: "borrower-v1",
           name: "borrower-v1",
-          principal: "SP35E2BBMDT2Y1HB0NTK139YBGYV3PAPK3WA8BRNA",
+          principal: "SP3BJR4P3W2Y9G22HA595Z59VHBC9EQYRFWSKG743",
         },
         LIQUIDATOR: {
           id: "liquidator-v1",
           name: "liquidator-v1",
-          principal: "SPRZH8YN496DYPM7Z2KY1V4P4B4NPJYWE5Q7D56Y",
+          principal: "SP3BJR4P3W2Y9G22HA595Z59VHBC9EQYRFWSKG743",
         },
         INTEREST_RATE: {
           id: "linear-kinked-ir-v1",
@@ -104,14 +104,14 @@ export const config: Config = {
           principal: "SP35E2BBMDT2Y1HB0NTK139YBGYV3PAPK3WA8BRNA",
         },
         WITHDRAWAL_CAPS: {
-          id: "",
-          name: "",
-          principal: "",
+          id: "withdrawal-caps-v1",
+          name: "withdrawal-caps-v1",
+          principal: "SP3BJR4P3W2Y9G22HA595Z59VHBC9EQYRFWSKG743",
         },
         SAFETY_MODULE: {
-          id: "",
-          name: "",
-          principal: "",
+          id: "staking-v1",
+          name: "staking-v1",
+          principal: "SP3BJR4P3W2Y9G22HA595Z59VHBC9EQYRFWSKG743",
         },
       },
       ir_params: {
