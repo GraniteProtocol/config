@@ -108,6 +108,11 @@ export const config: Config = {
           name: "withdrawal-caps-v1",
           principal: "SP3BJR4P3W2Y9G22HA595Z59VHBC9EQYRFWSKG743",
         },
+        WITHDRAWAL_CAPS_UTILITY: {
+          id: "withdrawal-caps-util-v1",
+          name: "withdrawal-caps-util-v1",
+          principal: "SP24JTGNHHZFZNG7EBD13VQRGA4HCSDVFWG9WV3RP",
+        },
         SAFETY_MODULE: {
           id: "staking-v1",
           name: "staking-v1",
@@ -407,6 +412,11 @@ export const config: Config = {
           id: "daily-caps-v1",
           name: "daily-caps-v1",
           principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
+        },
+        WITHDRAWAL_CAPS_UTILITY: {
+          id: "",
+          name: "",
+          principal: "",
         },
         SAFETY_MODULE: {
           id: "staking-v1",
