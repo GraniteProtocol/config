@@ -20,6 +20,7 @@ export const config: Config = {
   markets: {
     MAINNET: {
       chain_id: GRANITE_MARKETS.MAINNET,
+      pyth_fee: 1,
       market_asset: {
         display_name: "aeUSDC",
         contract: {
@@ -68,11 +69,6 @@ export const config: Config = {
         },
       ],
       contracts: {
-        PYTH: {
-          id: "pyth-governance-v2",
-          name: "pyth-governance-v2",
-          principal: "SP3R4F6C1J3JQWWCVZ3S7FRRYPMYG6ZW6RZK31FXY",
-        },
         STATE: {
           id: "lp-token",
           name: "state-v1",
@@ -325,6 +321,7 @@ export const config: Config = {
 
     MAINNET_STAGING: {
       chain_id: GRANITE_MARKETS.MAINNET_STAGING,
+      pyth_fee: 1,
       market_asset: {
         display_name: "aeUSDC",
         contract: {
@@ -346,7 +343,7 @@ export const config: Config = {
         contract: {
           id: "state-v1",
           name: "state-v1",
-          principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
+          principal: "SP82RJ0BSR8C8KQVKWXBR4ZFG8CPJN1E0S31X1NB",
         },
         decimals: 6,
         display_decimals: 4,
@@ -373,55 +370,50 @@ export const config: Config = {
         },
       ],
       contracts: {
-        PYTH: {
-          id: "pyth-governance-v2",
-          name: "pyth-governance-v2",
-          principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
-        },
         STATE: {
           id: "lp-token",
           name: "state-v1",
-          principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
+          principal: "SP82RJ0BSR8C8KQVKWXBR4ZFG8CPJN1E0S31X1NB",
         },
         LP: {
           id: "liquidity-provider-v1",
           name: "liquidity-provider-v1",
-          principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
+          principal: "SP82RJ0BSR8C8KQVKWXBR4ZFG8CPJN1E0S31X1NB",
         },
         BORROWER: {
           id: "borrower-v1",
           name: "borrower-v1",
-          principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
+          principal: "SP82RJ0BSR8C8KQVKWXBR4ZFG8CPJN1E0S31X1NB",
         },
         LIQUIDATOR: {
           id: "liquidator-v1",
           name: "liquidator-v1",
-          principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
+          principal: "SP82RJ0BSR8C8KQVKWXBR4ZFG8CPJN1E0S31X1NB",
         },
         INTEREST_RATE: {
           id: "linear-kinked-ir-v1",
           name: "linear-kinked-ir-v1",
-          principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
+          principal: "SP82RJ0BSR8C8KQVKWXBR4ZFG8CPJN1E0S31X1NB",
         },
         GOVERNANCE: {
           id: "governance-v1",
           name: "governance-v1",
-          principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
+          principal: "SP82RJ0BSR8C8KQVKWXBR4ZFG8CPJN1E0S31X1NB",
         },
         WITHDRAWAL_CAPS: {
           id: "daily-caps-v1",
           name: "daily-caps-v1",
-          principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
+          principal: "SP82RJ0BSR8C8KQVKWXBR4ZFG8CPJN1E0S31X1NB",
         },
         WITHDRAWAL_CAPS_UTILITY: {
-          id: "",
-          name: "",
-          principal: "",
+          id: "withdrawal-caps-util-v1",
+          name: "withdrawal-caps-util-v1",
+          principal: "SP82RJ0BSR8C8KQVKWXBR4ZFG8CPJN1E0S31X1NB",
         },
         SAFETY_MODULE: {
           id: "staking-v1",
           name: "staking-v1",
-          principal: "SP2R995XG7W1KHYSTGC6Q8AT0C79379W7C6133AQZ",
+          principal: "SP82RJ0BSR8C8KQVKWXBR4ZFG8CPJN1E0S31X1NB",
         },
       },
       ir_params: {
