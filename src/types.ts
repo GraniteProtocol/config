@@ -56,7 +56,6 @@ export interface CollateralToken extends Token {
 }
 
 export enum GraniteContracts {
-  PYTH = "PYTH",
   STATE = "STATE",
   LP = "LP",
   BORROWER = "BORROWER",
@@ -96,6 +95,7 @@ export interface Market {
   scaling_factor: number;
   lp_incentives: LpIncentivesEpoch[];
   withdrawal_caps: WithdrawalCaps;
+  pyth_fee: number;
 }
 
 export interface Config {
