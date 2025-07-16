@@ -132,8 +132,6 @@ export const config: Config = {
           startDate: 1744221780,
           endDate: 1744122780,
           rewards: 10000000,
-          initiated: true,
-          completed: true,
           contract: {
             id: "lp-incentives-v1",
             name: "lp-incentives-v1",
@@ -144,8 +142,6 @@ export const config: Config = {
           startDate: 1744302900,
           endDate: 1744821300,
           rewards: 1260000000,
-          initiated: true,
-          completed: true,
           contract: {
             id: "lp-incentives-v1",
             name: "lp-incentives-v1",
@@ -156,8 +152,6 @@ export const config: Config = {
           startDate: 1744824900,
           endDate: 1745418900,
           rewards: 1230000000,
-          initiated: true,
-          completed: true,
           contract: {
             id: "lp-incentives-v1",
             name: "lp-incentives-v1",
@@ -168,8 +162,6 @@ export const config: Config = {
           startDate: 1745422500,
           endDate: 1746009300,
           rewards: 2451000000,
-          initiated: true,
-          completed: true,
           contract: {
             id: "lp-incentives-v1",
             name: "lp-incentives-v1",
@@ -180,8 +172,6 @@ export const config: Config = {
           startDate: 1746002100,
           endDate: 1746635700,
           rewards: 2685000000,
-          initiated: true,
-          completed: true,
           contract: {
             id: "lp-incentives-v1",
             name: "lp-incentives-v1",
@@ -192,8 +182,6 @@ export const config: Config = {
           startDate: 1746636900,
           endDate: 1747240500,
           rewards: 4802000000,
-          initiated: true,
-          completed: true,
           contract: {
             id: "lp-incentives-v1",
             name: "lp-incentives-v1",
@@ -204,8 +192,6 @@ export const config: Config = {
           startDate: 1747241100,
           endDate: 1747841700,
           rewards: 9890000000,
-          initiated: true,
-          completed: true,
           contract: {
             id: "lp-incentives-v1",
             name: "lp-incentives-v1",
@@ -216,8 +202,6 @@ export const config: Config = {
           startDate: 1747842900,
           endDate: 1748446500,
           rewards: 11830000000,
-          initiated: true,
-          completed: true,
           contract: {
             id: "lp-incentives-v2",
             name: "lp-incentives-v2",
@@ -228,8 +212,6 @@ export const config: Config = {
           startDate: 1748453100,
           endDate: 1749050700,
           rewards: 15185000000,
-          initiated: true,
-          completed: true,
           contract: {
             id: "lp-incentives-v2",
             name: "lp-incentives-v2",
@@ -240,8 +222,6 @@ export const config: Config = {
           startDate: 1749051300,
           endDate: 1749654000,
           rewards: 22260000000,
-          initiated: true,
-          completed: true,
           contract: {
             id: "lp-incentives-v2",
             name: "lp-incentives-v2",
@@ -252,8 +232,6 @@ export const config: Config = {
           startDate: 1749655500,
           endDate: 1750260900,
           rewards: 28393000000,
-          initiated: true,
-          completed: true,
           contract: {
             id: "lp-incentives-v2",
             name: "lp-incentives-v2",
@@ -264,8 +242,6 @@ export const config: Config = {
           startDate: 1750264320,
           endDate: 1750865100,
           rewards: 35491000000,
-          initiated: true,
-          completed: true,
           contract: {
             id: "lp-incentives-v2",
             name: "lp-incentives-v2",
@@ -276,8 +252,6 @@ export const config: Config = {
           startDate: 1750865700,
           endDate: 1751469900,
           rewards: 30625000000,
-          initiated: true,
-          completed: true,
           contract: {
             id: "lp-incentives-v2",
             name: "lp-incentives-v2",
@@ -288,8 +262,6 @@ export const config: Config = {
           startDate: 1751470500,
           endDate: 1752074700,
           rewards: 30685000000,
-          initiated: true,
-          completed: true,
           contract: {
             id: "lp-incentives-v2",
             name: "lp-incentives-v2",
@@ -300,12 +272,20 @@ export const config: Config = {
           startDate: 1752075300,
           endDate: 1752679500,
           rewards: 30685000000,
-          initiated: true,
-          completed: false,
           contract: {
             id: "lp-incentives-v2",
             name: "lp-incentives-v2",
             principal: "SP332XB0Q9ZZHM1K6AJJ12FE61RNCQGF0HVWW2T80",
+          },
+        },
+        {
+          startDate: 1752680100,
+          endDate: 1753284300,
+          rewards: 32685000000,
+          contract: {
+            id: "lp-incentives-v2",
+            name: "lp-incentives-v2",
+            principal: "SP1BXEWB1EKTCPC9G4SYCXY25P8XAHXCV2EV4A38E",
           },
         },
       ],
