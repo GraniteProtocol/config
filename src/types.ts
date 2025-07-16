@@ -71,8 +71,6 @@ export interface LpIncentivesEpoch {
   startDate: number;
   endDate: number;
   rewards: number;
-  initiated: boolean;
-  completed: boolean;
   contract: Contract;
 }
 
