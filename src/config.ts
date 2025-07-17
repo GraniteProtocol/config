@@ -63,7 +63,7 @@ export const config: Config = {
           decimals: 8,
           display_decimals: 5,
           image:
-            "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
+            "https://teal-worldwide-cattle-228.mypinata.cloud/ipfs/bafkreigsh7sxsgbxfgx7mfvepqhtdkuec6nmzgwjscx5w3rg6ikoungz3q",
           price_feed:
             "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
         },
@@ -344,7 +344,7 @@ export const config: Config = {
           decimals: 8,
           display_decimals: 5,
           image:
-            "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599/logo.png",
+            "https://teal-worldwide-cattle-228.mypinata.cloud/ipfs/bafkreigsh7sxsgbxfgx7mfvepqhtdkuec6nmzgwjscx5w3rg6ikoungz3q",
           price_feed:
             "e62df6c8b4a85fe1a67db44dc12de5db330f7ac66b72dc658afedf0f4a415b43",
         },
