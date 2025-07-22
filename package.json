@@ -1,6 +1,6 @@
 {
   "name": "granite-config",
-  "version": "1.0.12",
+  "version": "1.0.13",
   "description": "Granite configuration package",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
