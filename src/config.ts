@@ -114,6 +114,11 @@ export const config: Config = {
           name: "staking-v1",
           principal: "SP3BJR4P3W2Y9G22HA595Z59VHBC9EQYRFWSKG743",
         },
+        PYTH_STORAGE: {
+          id: 'pyth-storage-v3',
+          name: 'pyth-storage-v3',
+          principal: 'SP3R4F6C1J3JQWWCVZ3S7FRRYPMYG6ZW6RZK31FXY',
+        },
       },
       ir_params: {
         baseIR: 0.005,
@@ -404,6 +409,11 @@ export const config: Config = {
           id: "staking-v1",
           name: "staking-v1",
           principal: "SP2Q5KYRHR7C07D5H5Y0QMN6K9F9410X1CS0J7YS0",
+        },
+          PYTH_STORAGE: {
+          id: 'pyth-storage-v3',
+          name: 'pyth-storage-v3',
+          principal: 'SP3R4F6C1J3JQWWCVZ3S7FRRYPMYG6ZW6RZK31FXY',
         },
       },
       ir_params: {
