@@ -65,6 +65,7 @@ export enum GraniteContracts {
   WITHDRAWAL_CAPS = "WITHDRAWAL_CAPS",
   WITHDRAWAL_CAPS_UTILITY = "WITHDRAWAL_CAPS_UTILITY",
   SAFETY_MODULE = "SAFETY_MODULE",
+  PYTH_STORAGE = "PYTH_STORAGE"
 }
 
 export interface LpIncentivesEpoch {
