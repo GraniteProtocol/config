@@ -65,7 +65,9 @@ export enum GraniteContracts {
   WITHDRAWAL_CAPS = "WITHDRAWAL_CAPS",
   WITHDRAWAL_CAPS_UTILITY = "WITHDRAWAL_CAPS_UTILITY",
   SAFETY_MODULE = "SAFETY_MODULE",
-  PYTH_STORAGE = "PYTH_STORAGE"
+  PYTH_STORAGE = "PYTH_STORAGE",
+  FLASH_LOAN = "FLASH_LOAN",
+  BTC_LEVERAGE = "BTC_LEVERAGE",
 }
 
 export interface LpIncentivesEpoch {
@@ -95,6 +97,7 @@ export interface Market {
   lp_incentives: LpIncentivesEpoch[];
   withdrawal_caps: WithdrawalCaps;
   pyth_fee: number;
+  flash_loan_fee: number;
 }
 
 export interface Config {

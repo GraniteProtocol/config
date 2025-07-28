@@ -21,6 +21,7 @@ export const config: Config = {
     MAINNET: {
       chain_id: GRANITE_MARKETS.MAINNET,
       pyth_fee: 1,
+      flash_loan_fee: 0,
       market_asset: {
         display_name: "aeUSDC",
         contract: {
@@ -118,6 +119,16 @@ export const config: Config = {
           id: 'pyth-storage-v3',
           name: 'pyth-storage-v3',
           principal: 'SP3R4F6C1J3JQWWCVZ3S7FRRYPMYG6ZW6RZK31FXY',
+        },
+        FLASH_LOAN: {
+          id: '',
+          name: '',
+          principal: '',
+        },
+        BTC_LEVERAGE: {
+          id: '',
+          name: '',
+          principal: '',
         },
       },
       ir_params: {
@@ -317,6 +328,7 @@ export const config: Config = {
     MAINNET_STAGING: {
       chain_id: GRANITE_MARKETS.MAINNET_STAGING,
       pyth_fee: 1,
+      flash_loan_fee: 0,
       market_asset: {
         display_name: "aeUSDC",
         contract: {
@@ -410,10 +422,20 @@ export const config: Config = {
           name: "staking-v1",
           principal: "SP2Q5KYRHR7C07D5H5Y0QMN6K9F9410X1CS0J7YS0",
         },
-          PYTH_STORAGE: {
+        PYTH_STORAGE: {
           id: 'pyth-storage-v3',
           name: 'pyth-storage-v3',
           principal: 'SP3R4F6C1J3JQWWCVZ3S7FRRYPMYG6ZW6RZK31FXY',
+        },
+        FLASH_LOAN: {
+          id: 'flash-loan-v1',
+          name: 'flash-loan-v1',
+          principal: 'SP2Q5KYRHR7C07D5H5Y0QMN6K9F9410X1CS0J7YS0',
+        },
+        BTC_LEVERAGE: {
+          id: 'leverage-test-v1',
+          name: 'leverage-test-v1',
+          principal: 'SP1GJSC4GG3MDA1KYZJYS9FEVCKHASR1N7089BEQK',
         },
       },
       ir_params: {
