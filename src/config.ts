@@ -314,6 +314,16 @@ export const config: Config = {
             principal: "SP3141V7G9K4WYCN2CEV4075S3NV5AFR7JVRJQRGW",
           },
         },
+        {
+          startDate: 1753889700,
+          endDate: 1754493900,
+          rewards: 33753000000,
+          contract: {
+            id: "lp-incentives-v2",
+            name: "lp-incentives-v2",
+            principal: "SP25C79PQ3HTH73GR63NT7A1JS8D0633HT9KNK2JJ",
+          },
+        },
       ],
       protocol_reserve_percentage: 0.25,
       withdrawal_caps: {
