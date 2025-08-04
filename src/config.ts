@@ -338,7 +338,7 @@ export const config: Config = {
     MAINNET_STAGING: {
       chain_id: GRANITE_MARKETS.MAINNET_STAGING,
       pyth_fee: 1,
-      flash_loan_fee: 0,
+      flash_loan_fee: 10,
       market_asset: {
         display_name: "aeUSDC",
         contract: {
@@ -463,8 +463,8 @@ export const config: Config = {
       lp_incentives: [],
       protocol_reserve_percentage: 0,
       withdrawal_caps: {
-        lp: 0.1,
-        debt: 0.1,
+        lp: 0,
+        debt: 0,
         collaterals: [0],
         timeWindow: 86400,
       },
