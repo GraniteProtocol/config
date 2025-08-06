@@ -21,7 +21,7 @@ export const config: Config = {
   markets: {
     MAINNET: {
       chain_id: GRANITE_MARKETS.MAINNET,
-      pyth_fee: 1,
+      pyth_fee: 10,
       flash_loan_fee: 0,
       market_asset: {
         display_name: "aeUSDC",
@@ -359,7 +359,7 @@ export const config: Config = {
 
     MAINNET_STAGING: {
       chain_id: GRANITE_MARKETS.MAINNET_STAGING,
-      pyth_fee: 1,
+      pyth_fee: 10,
       flash_loan_fee: 10,
       market_asset: {
         display_name: "aeUSDC",
