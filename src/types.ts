@@ -75,6 +75,7 @@ export interface LpIncentivesEpoch {
   endDate: number;
   rewards: number;
   contract: Contract;
+  token: Contract;
 }
 
 export interface WithdrawalCaps {
