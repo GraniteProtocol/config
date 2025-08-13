@@ -360,9 +360,9 @@ export const config: Config = {
       ],
       protocol_reserve_percentage: 0.25,
       withdrawal_caps: {
-        lp: 0,
-        debt: 0,
-        collaterals: [0],
+        lp: .2,
+        debt: .2,
+        collaterals: [.2],
         timeWindow: 86400,
       },
       scaling_factor: 1000000000000,
