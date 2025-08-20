@@ -68,6 +68,7 @@ export enum GraniteContracts {
   PYTH_STORAGE = "PYTH_STORAGE",
   FLASH_LOAN = "FLASH_LOAN",
   BTC_LEVERAGE = "BTC_LEVERAGE",
+  REPAY_WITH_COLLATERAL = "REPAY_WITH_COLLATERAL",
 }
 
 export interface LpIncentivesEpoch {

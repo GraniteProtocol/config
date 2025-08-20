@@ -123,6 +123,11 @@ export const config: Config = {
           name: "",
           principal: "",
         },
+        REPAY_WITH_COLLATERAL: {
+          id: "",
+          name: "",
+          principal: "",
+        },
       },
       ir_params: {
         baseIR: 0.005,
@@ -371,9 +376,9 @@ export const config: Config = {
       ],
       protocol_reserve_percentage: 0.25,
       withdrawal_caps: {
-        lp: .2,
-        debt: .2,
-        collaterals: [.2],
+        lp: 0.2,
+        debt: 0.2,
+        collaterals: [0.2],
         timeWindow: 86400,
       },
       scaling_factor: 1000000000000,
@@ -400,7 +405,7 @@ export const config: Config = {
         contract: {
           id: "state-v1",
           name: "state-v1",
-          principal: "SP2Q5KYRHR7C07D5H5Y0QMN6K9F9410X1CS0J7YS0",
+          principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         decimals: 6,
         display_decimals: 4,
@@ -426,47 +431,47 @@ export const config: Config = {
         STATE: {
           id: "lp-token",
           name: "state-v1",
-          principal: "SP2Q5KYRHR7C07D5H5Y0QMN6K9F9410X1CS0J7YS0",
+          principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         LP: {
           id: "liquidity-provider-v1",
           name: "liquidity-provider-v1",
-          principal: "SP2Q5KYRHR7C07D5H5Y0QMN6K9F9410X1CS0J7YS0",
+          principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         BORROWER: {
           id: "borrower-v1",
           name: "borrower-v1",
-          principal: "SP2Q5KYRHR7C07D5H5Y0QMN6K9F9410X1CS0J7YS0",
+          principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         LIQUIDATOR: {
           id: "liquidator-v1",
           name: "liquidator-v1",
-          principal: "SP2Q5KYRHR7C07D5H5Y0QMN6K9F9410X1CS0J7YS0",
+          principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         INTEREST_RATE: {
           id: "linear-kinked-ir-v1",
           name: "linear-kinked-ir-v1",
-          principal: "SP2Q5KYRHR7C07D5H5Y0QMN6K9F9410X1CS0J7YS0",
+          principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         GOVERNANCE: {
           id: "governance-v1",
           name: "governance-v1",
-          principal: "SP2Q5KYRHR7C07D5H5Y0QMN6K9F9410X1CS0J7YS0",
+          principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         WITHDRAWAL_CAPS: {
           id: "daily-caps-v1",
           name: "daily-caps-v1",
-          principal: "SP2Q5KYRHR7C07D5H5Y0QMN6K9F9410X1CS0J7YS0",
+          principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         WITHDRAWAL_CAPS_UTILITY: {
           id: "withdrawal-caps-util-v1",
           name: "withdrawal-caps-util-v1",
-          principal: "SP2Q5KYRHR7C07D5H5Y0QMN6K9F9410X1CS0J7YS0",
+          principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         SAFETY_MODULE: {
           id: "staking-v1",
           name: "staking-v1",
-          principal: "SP2Q5KYRHR7C07D5H5Y0QMN6K9F9410X1CS0J7YS0",
+          principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         PYTH_STORAGE: {
           id: "pyth-storage-v3",
@@ -476,12 +481,17 @@ export const config: Config = {
         FLASH_LOAN: {
           id: "flash-loan-v1",
           name: "flash-loan-v1",
-          principal: "SP2Q5KYRHR7C07D5H5Y0QMN6K9F9410X1CS0J7YS0",
+          principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         BTC_LEVERAGE: {
-          id: "leverage-test-v1",
-          name: "leverage-test-v1",
-          principal: "SP1GJSC4GG3MDA1KYZJYS9FEVCKHASR1N7089BEQK",
+          id: "leverage-v1",
+          name: "leverage-v1",
+          principal: "SPDBF8AA29K68CV319XST5JRK7S69CMYSGMYVFWN",
+        },
+        REPAY_WITH_COLLATERAL: {
+          id: "repay-with-collateral-v1",
+          name: "repay-with-collateral-v1",
+          principal: "SPDBF8AA29K68CV319XST5JRK7S69CMYSGMYVFWN",
         },
       },
       ir_params: {
