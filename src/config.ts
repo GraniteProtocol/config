@@ -357,6 +357,17 @@ export const config: Config = {
           },
           token: STX,
         },
+        {
+          startDate: 1755704100,
+          endDate: 1756308300,
+          rewards: 58452000000,
+          contract: {
+            id: "lp-incentives-v2",
+            name: "lp-incentives-v2",
+            principal: "SP32Q8R7BS97CYSTNY1BAGF91QHYJPR2S9FBAV8B2",
+          },
+          token: STX,
+        },
       ],
       protocol_reserve_percentage: 0.25,
       withdrawal_caps: {
