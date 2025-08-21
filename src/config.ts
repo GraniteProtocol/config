@@ -474,9 +474,9 @@ export const config: Config = {
           principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         PYTH_STORAGE: {
-          id: "pyth-storage-v3",
-          name: "pyth-storage-v3",
-          principal: "SP3R4F6C1J3JQWWCVZ3S7FRRYPMYG6ZW6RZK31FXY",
+          id: "pyth-storage-v4",
+          name: "pyth-storage-v4",
+          principal: "SP1CGXWEAMG6P6FT04W66NVGJ7PQWMDAC19R7PJ0Y",
         },
         FLASH_LOAN: {
           id: "flash-loan-v1",
