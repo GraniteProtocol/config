@@ -507,7 +507,7 @@ export const config: Config = {
         baseRewardRate: 0.3,
       },
       lp_incentives: [],
-      protocol_reserve_percentage: 0,
+      protocol_reserve_percentage: 0.25,
       withdrawal_caps: {
         lp: 0,
         debt: 0,
