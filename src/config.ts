@@ -71,17 +71,17 @@ export const config: Config = {
         LP: {
           id: "liquidity-provider-v1",
           name: "liquidity-provider-v1",
-          principal: "SP3BJR4P3W2Y9G22HA595Z59VHBC9EQYRFWSKG743",
+          principal: "SP26NGV9AFZBX7XBDBS2C7EC7FCPSAV9PKREQNMVS",
         },
         BORROWER: {
           id: "borrower-v1",
           name: "borrower-v1",
-          principal: "SP3BJR4P3W2Y9G22HA595Z59VHBC9EQYRFWSKG743",
+          principal: "SP26NGV9AFZBX7XBDBS2C7EC7FCPSAV9PKREQNMVS",
         },
         LIQUIDATOR: {
           id: "liquidator-v1",
           name: "liquidator-v1",
-          principal: "SP3BJR4P3W2Y9G22HA595Z59VHBC9EQYRFWSKG743",
+          principal: "SP26NGV9AFZBX7XBDBS2C7EC7FCPSAV9PKREQNMVS",
         },
         INTEREST_RATE: {
           id: "linear-kinked-ir-v1",
@@ -91,7 +91,7 @@ export const config: Config = {
         GOVERNANCE: {
           id: "governance-v1",
           name: "governance-v1",
-          principal: "SP35E2BBMDT2Y1HB0NTK139YBGYV3PAPK3WA8BRNA",
+          principal: "SP26NGV9AFZBX7XBDBS2C7EC7FCPSAV9PKREQNMVS",
         },
         WITHDRAWAL_CAPS: {
           id: "withdrawal-caps-v1",
@@ -109,14 +109,14 @@ export const config: Config = {
           principal: "SP3BJR4P3W2Y9G22HA595Z59VHBC9EQYRFWSKG743",
         },
         PYTH_STORAGE: {
-          id: "pyth-storage-v3",
-          name: "pyth-storage-v3",
-          principal: "SP3R4F6C1J3JQWWCVZ3S7FRRYPMYG6ZW6RZK31FXY",
+          id: "pyth-storage-v4",
+          name: "pyth-storage-v4",
+          principal: "SP1CGXWEAMG6P6FT04W66NVGJ7PQWMDAC19R7PJ0Y",
         },
         FLASH_LOAN: {
-          id: "",
-          name: "",
-          principal: "",
+          id: "flash-loan-v1",
+          name: "flash-loan-v1",
+          principal: "SP26NGV9AFZBX7XBDBS2C7EC7FCPSAV9PKREQNMVS",
         },
         BTC_LEVERAGE: {
           id: "",
