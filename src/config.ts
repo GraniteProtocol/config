@@ -384,6 +384,18 @@ export const config: Config = {
           },
           token: STX,
         },
+         {
+          startDate: 1756914300,
+          endDate: 1757518500,
+          // TODO: Get final rewards from Blaize
+          rewards: 41920000000,
+          contract: {
+            id: "lp-incentives-v2",
+            name: "lp-incentives-v2",
+            principal: "SP1DCPBRETA7Z993PVC0DVVZHKCXYTZDC07DHQR3B",
+          },
+          token: STX,
+        },
       ],
       protocol_reserve_percentage: 0.25,
       withdrawal_caps: {
