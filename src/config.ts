@@ -384,6 +384,17 @@ export const config: Config = {
           },
           token: STX,
         },
+         {
+          startDate: 1756913700,
+          endDate: 1757517900,
+          rewards: 23926000000,
+          contract: {
+            id: "lp-incentives-v2",
+            name: "lp-incentives-v2",
+            principal: "SP1DCPBRETA7Z993PVC0DVVZHKCXYTZDC07DHQR3B",
+          },
+          token: STX,
+        },
       ],
       protocol_reserve_percentage: 0.25,
       withdrawal_caps: {
@@ -470,8 +481,8 @@ export const config: Config = {
           principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         WITHDRAWAL_CAPS: {
-          id: "daily-caps-v1",
-          name: "daily-caps-v1",
+          id: "withdrawal-caps-v1",
+          name: "withdrawal-caps-v1",
           principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         WITHDRAWAL_CAPS_UTILITY: {
