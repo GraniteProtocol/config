@@ -385,10 +385,9 @@ export const config: Config = {
           token: STX,
         },
          {
-          startDate: 1756914300,
-          endDate: 1757518500,
-          // TODO: Get final rewards from Blaize
-          rewards: 41920000000,
+          startDate: 1756913700,
+          endDate: 1757517900,
+          rewards: 23926000000,
           contract: {
             id: "lp-incentives-v2",
             name: "lp-incentives-v2",
