@@ -482,8 +482,8 @@ export const config: Config = {
           principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         WITHDRAWAL_CAPS: {
-          id: "daily-caps-v1",
-          name: "daily-caps-v1",
+          id: "withdrawal-caps-v1",
+          name: "withdrawal-caps-v1",
           principal: "SP3Y6GFKWN50HPA8RKRXMY0EXAJR9VXPY899P88JN",
         },
         WITHDRAWAL_CAPS_UTILITY: {
