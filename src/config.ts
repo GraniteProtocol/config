@@ -8,13 +8,13 @@ export const config: Config = {
     MAINNET: {
       id: GRANITE_MARKETS.MAINNET,
       name: "Mainnet",
-      tgBot: "https://t.me/GraniteFinanceBot",
+      tgBot: "https://t.me/granite_production_bot",
       network: "mainnet",
     },
     MAINNET_STAGING: {
       id: GRANITE_MARKETS.MAINNET_STAGING,
       name: "Mainnet staging",
-      tgBot: "",
+      tgBot: "https://t.me/granite_staging_bot",
       network: "mainnet",
     },
   },
